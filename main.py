@@ -19,8 +19,6 @@ while running:
 
     screen.fill(SCREEN_COLOR)
 
-    # Hello!
-
     draw_axes(screen)
 
     pygame.display.flip()
