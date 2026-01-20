@@ -4,8 +4,8 @@ pygame.init()
 
 TITLE = "Lorenz System Visualizer"
 
-SCREEN_WIDTH = 900
-SCREEN_HEIGHT = 900
+SCREEN_WIDTH = 800
+SCREEN_HEIGHT = 800
 SCREEN_COLOR = (255, 255, 255)
 
 screen = pygame.display.set_mode(size=(SCREEN_WIDTH, SCREEN_HEIGHT))
@@ -18,6 +18,8 @@ while running:
             running = False
 
     screen.fill(SCREEN_COLOR)
+
+    # Hello!
 
     draw_axes(screen)
 
